@@ -1,6 +1,4 @@
-# SSB-JS (Draft)
-
-**This is a draft and carries no weight unless the draft status is removed.**
+# SSB-JS
 
 ## History
 
@@ -15,11 +13,21 @@ SSB-JS organization require discussion and consent.
 
 ## Projects
 
-None (yet).
+- [Chloride](https://github.com/ssb-js/chloride)
+- [Multiserver](https://github.com/ssb-js/multiserver)
+- [MuxRPC](https://github.com/ssb-js/muxrpc)
+- [SSB-Keys](https://github.com/ssb-js/ssb-keys)
+- [SSB-Ref](https://github.com/ssb-js/ssb-ref)
+- [SSB-Validate](https://github.com/ssb-js/ssb-validate)
+- [Secret-Stack](https://github.com/ssb-js/secret-stack)
 
 ## Maintainers
 
-None (yet).
+- [@arj03](https://github.com/arj03)
+- [@christianbundy](https://github.com/christianbundy)
+- [@mixmix](https://github.com/mixmix)
+- [@soapdog](https://github.com/soapdog)
+- [@staltz](https://github.com/staltz)
 
 ## Process
 
