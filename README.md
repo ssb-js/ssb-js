@@ -45,7 +45,7 @@ SSB-JS organization require discussion and consent.
 - Anyone who is not a maintainer MUST NOT have the ability to push commits to this repository.
 - Anyone MUST be able to propose changes to this repository via pull request.
 - Maintainers MAY comment on the pull request, approve it, or both.
-- A change is considered 'approved' when at least ⅔ of maintainers approve the latest commit on a pull request.
+- A change is considered 'approved' when at least 2 maintainers approve the latest commit on a pull request. You may want to seek more feedback for deeper changes, this is up to you.
 - Maintainers MUST merge changes that are approved.
 - Maintainers MUST NOT push any changes that are not approved.
 - Maintainers SHOULD close pull requests that remain open for more than 30 days.
