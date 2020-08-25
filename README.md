@@ -21,6 +21,9 @@ SSB-JS organization require discussion and consent.
 - [SSB-Validate](https://github.com/ssb-js/ssb-validate)
 - [Secret-Stack](https://github.com/ssb-js/secret-stack)
 
+![](./module-dependencies.png)
+_highlighted are the module maintained by ssb-js_
+
 ## Maintainers
 
 - [@arj03](https://github.com/arj03)
