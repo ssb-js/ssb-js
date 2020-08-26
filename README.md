@@ -34,10 +34,11 @@ SSB-JS organization require discussion and consent.
 ### Repositories
 
 - There MUST be one Git repository for governance and one for each project.
-- The 'SSB-JS namespace' refers to the SSB-JS organizations on GitHub and Npm.
+- The 'SSB-JS namespace' refers to the SSB-JS organizations on GitHub and npm.
 - Repositories and build artifacts must be hosted in the SSB-JS namespace.
 - Repositories MUST have a 'main' branch.
 - Repositories MUST NOT have any other branches.
+- The latest commit on the 'main' branch SHOULD always be versioned and released on npm.
 
 ### Projects
 
