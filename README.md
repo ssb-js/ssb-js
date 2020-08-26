@@ -31,26 +31,13 @@ SSB-JS organization require discussion and consent.
 
 ## Process
 
-### Repository
+### Repositories
 
-- This repository MUST be hosted at <https://github.com/ssb-js/ssb-js.git>.
-- This repository MUST have a 'main' branch.
-- This repository MUST NOT have any other branches.
+- There MUST be one Git repository for governance and one for each project.
 - The 'SSB-JS namespace' refers to the SSB-JS organizations on GitHub and Npm.
-- Maintainers and projects in the SSB-JS namespace MUST match this repository.
-
-### Changes
-
-- Maintainers MUST have the ability to push commits to this repository.
-- Anyone who is not a maintainer MUST NOT have the ability to push commits to this repository.
-- Anyone MUST be able to propose changes to this repository via pull request.
-- Maintainers MAY comment on the pull request, approve it, or both.
-- A change is considered 'approved' when at least ⅔ of maintainers approve the latest commit on a pull request.
-- Maintainers MUST merge changes that are approved.
-- Maintainers MUST NOT push any changes that are not approved.
-- Maintainers SHOULD close pull requests that remain open for more than 30 days.
-- Maintainers who are inactive or fail to apply this process SHOULD be removed.
-- Maintainers SHOULD invite project contributors to become maintainers.
+- Repositories and build artifacts must be hosted in the SSB-JS namespace.
+- Repositories MUST have a 'main' branch.
+- Repositories MUST NOT have any other branches.
 
 ### Projects
 
@@ -60,11 +47,26 @@ SSB-JS organization require discussion and consent.
 - Projects SHOULD have automated tests for all target platforms.
 - Projects SHOULD have internally consistent contribution guidelines.
 
-### Maintenance
+### Contributing
 
+- Anyone MUST be able to propose changes to repositories via pull request.
+- Anyone who is not a maintainer MUST NOT have the ability to push commits to repositories.
+- Maintainers MUST have the ability to push commits to every repository.
 - Maintainers SHOULD NOT merge their own pull requests.
 - Maintainers SHOULD aim to make contributing a fun and simple experience.
 - Maintainers SHOULD merge project pull requests in a fast and friendly manner.
 - Maintainers SHOULD merge project pull requests that are net positive and pass tests.
 - Maintainers SHOULD NOT suggest small improvements on project pull requests.
 - Maintainers SHOULD suggest their improvements by opening their own pull request.
+- Maintainers SHOULD close pull requests that are inactive for more than 30 days.
+
+### Governance
+
+- The governance repository MUST be hosted at <https://github.com/ssb-js/ssb-js.git>.
+- Maintainers and projects in the SSB-JS namespace MUST match the governance repository.
+- Activity in the SSB-JS namespace MUST apply the process from the governance repository.
+- Maintainers SHOULD invite project contributors to become maintainers.
+- Maintainers who are inactive or fail to apply this process SHOULD be removed.
+- Changes to the governance repository MUST NOT be merged unless the latest commit on a pull request is approved by ⅔ of maintainers.
+- Maintainers MUST merge changes that are approved.
+- Maintainers MUST NOT push any changes that are not approved.
