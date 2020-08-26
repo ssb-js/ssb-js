@@ -23,11 +23,13 @@ SSB-JS organization require discussion and consent.
 
 ## Maintainers
 
-- [@arj03](https://github.com/arj03)
-- [@christianbundy](https://github.com/christianbundy)
-- [@mixmix](https://github.com/mixmix)
-- [@soapdog](https://github.com/soapdog)
-- [@staltz](https://github.com/staltz)
+### 2020
+
+- [@arj03](https://github.com/arj03) -- Multiserver, SSB-Ref, and SSB-Validate
+- [@christianbundy](https://github.com/christianbundy) -- Multiserver, MuxRPC, and SSB-Validate
+- [@mixmix](https://github.com/mixmix) -- Chloride, SSB-Ref, and Secret-Stack
+- [@soapdog](https://github.com/soapdog) -- MuxRPC and SSB-Keys
+- [@staltz](https://github.com/staltz) -- Chloride, SSB-Keys, and Secret-Stack
 
 ## Process
 
@@ -35,9 +37,12 @@ SSB-JS organization require discussion and consent.
 
 - There MUST be one Git repository for governance and one for each project.
 - The 'SSB-JS namespace' refers to the SSB-JS organizations on GitHub and Npm.
+- The SSB-JS namespace MUST be read-only unless specified otherwise.
 - Repositories and build artifacts must be hosted in the SSB-JS namespace.
 - Repositories MUST have a 'main' branch.
-- Repositories MUST NOT have any other branches.
+- Repositories MUST NOT have other branches.
+- Repositories MUST allow project discussions via issues.
+- Repositories MUST allow patch proposals via pull requests.
 
 ### Projects
 
@@ -47,11 +52,19 @@ SSB-JS organization require discussion and consent.
 - Projects SHOULD have automated tests for all target platforms.
 - Projects SHOULD have internally consistent contribution guidelines.
 
-### Contributing
+### Contributors
 
-- Anyone MUST be able to propose changes to repositories via pull request.
-- Anyone who is not a maintainer MUST NOT have the ability to push commits to repositories.
-- Maintainers MUST have the ability to push commits to every repository.
+- 'Contributors' are anyone who participates in a project.
+- Contributors MUST aim to foster an open, welcoming, and harassment-free space.
+- Contributors SHOULD recommend changes in the form of patches.
+- Contributors who want to be maintainers SHOULD participate consistently and often.
+
+### Maintainers
+
+- 'Maintainers' are contributors trusted to steward a project and vote.
+- Maintainers MUST have the 'owner' role on GitHub and NPM.
+- Maintainers SHOULD review and merge outstanding patches for the project they maintain.
+- Maintainers MAY review and merge patches for other projects.
 - Maintainers SHOULD NOT merge their own pull requests.
 - Maintainers SHOULD aim to make contributing a fun and simple experience.
 - Maintainers SHOULD merge project pull requests in a fast and friendly manner.
@@ -59,14 +72,15 @@ SSB-JS organization require discussion and consent.
 - Maintainers SHOULD NOT suggest small improvements on project pull requests.
 - Maintainers SHOULD suggest their improvements by opening their own pull request.
 - Maintainers SHOULD close pull requests that are inactive for more than 30 days.
+- Maintainers SHOULD invite high-quality contributors to become maintainers.
+- Maintainers SHOULD remove anyone who fails to apply this process.
 
 ### Governance
 
 - The governance repository MUST be hosted at <https://github.com/ssb-js/ssb-js.git>.
-- Maintainers and projects in the SSB-JS namespace MUST match the governance repository.
+- Roles and repositories in the SSB-JS namespace MUST match the governance repository.
 - Activity in the SSB-JS namespace MUST apply the process from the governance repository.
-- Maintainers SHOULD invite project contributors to become maintainers.
-- Maintainers who are inactive or fail to apply this process SHOULD be removed.
-- Changes to the governance repository MUST NOT be merged unless the latest commit on a pull request is approved by ⅔ of maintainers.
-- Maintainers MUST merge changes that are approved.
-- Maintainers MUST NOT push any changes that are not approved.
+- Patches to the governance repository MUST NOT be merged unless the latest commit on a pull request is approved by ⅔ of active maintainers.
+- If there are no active maintainers because their term expired, the previous cohort should be considered 'active maintainers' for the purposes of voting.
+- Maintainers MUST merge governance patches that are approved.
+- Maintainers MUST NOT merge governance patches that are not approved.
