@@ -70,8 +70,6 @@ SSB-JS organization require discussion and consent.
 - Maintainers SHOULD aim to make contributing a fun and simple experience.
 - Maintainers SHOULD merge project pull requests in a fast and friendly manner.
 - Maintainers SHOULD merge project pull requests that are net positive and pass tests.
-- Maintainers SHOULD NOT suggest small improvements on project pull requests.
-- Maintainers SHOULD suggest their improvements by opening their own pull request.
 - Maintainers SHOULD close pull requests that are inactive for more than 30 days.
 - Maintainers SHOULD invite high-quality contributors to become maintainers.
 - Maintainers SHOULD remove anyone who fails to apply this process.
