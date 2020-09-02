@@ -64,6 +64,7 @@ SSB-JS organization require discussion and consent.
 
 - 'Maintainers' are contributors trusted to steward a project and vote.
 - Maintainers MUST have the 'owner' role on GitHub and NPM.
+- Maintainers MUST have 2FA enabled on GitHub and NPM.
 - Maintainers SHOULD review and merge outstanding patches for the project they maintain.
 - Maintainers MAY review and merge patches for other projects.
 - Maintainers SHOULD NOT merge their own pull requests.
