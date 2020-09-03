@@ -31,6 +31,8 @@ SSB-JS organization require discussion and consent.
 
 ## Process
 
+- The key words "MUST", "MUST NOT", "REQUIRED", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
+
 ### Repositories
 
 - There MUST be one Git repository for governance and one for each project.
