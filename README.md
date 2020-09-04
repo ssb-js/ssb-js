@@ -58,9 +58,8 @@ SSB-JS organization require discussion and consent.
 ### Contributors
 
 - 'Contributors' are anyone who participates in a project.
-- Contributors MUST read a project's CONTRIBUTING.md before submitting a pull request.
-- Contributors MUST update their pull requests until they have no blocking concerns.
 - Contributors MUST aim to foster an open, welcoming, and harassment-free space.
+- Contributors MUST read a project's CONTRIBUTING.md before submitting a pull request.
 - Contributors SHOULD recommend changes in the form of patches.
 - Contributors who want to be maintainers SHOULD participate consistently and often.
 
