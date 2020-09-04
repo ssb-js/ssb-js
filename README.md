@@ -58,6 +58,8 @@ SSB-JS organization require discussion and consent.
 ### Contributors
 
 - 'Contributors' are anyone who participates in a project.
+- Contributors MUST read a project's CONTRIBUTING.md before submitting a pull request.
+- Contributors MUST update their pull requests until they have no blocking concerns.
 - Contributors MUST aim to foster an open, welcoming, and harassment-free space.
 - Contributors SHOULD recommend changes in the form of patches.
 - Contributors who want to be maintainers SHOULD participate consistently and often.
@@ -67,12 +69,13 @@ SSB-JS organization require discussion and consent.
 - 'Maintainers' are contributors trusted to steward a project and vote.
 - Maintainers MUST have the 'owner' role on GitHub and NPM.
 - Maintainers MUST have 2FA enabled on GitHub and NPM.
+- Maintainers MUST communicate in the project's CONTRIBUTING.md what types of changes in a project pull request are blocked from merging.
+- Maintainers SHOULD communicate in a project's CONTRIBUTING.md how contributors can get started and what is expected in a pull request.
 - Maintainers SHOULD review and merge outstanding patches for the project they maintain.
 - Maintainers MAY review and merge patches for other projects.
 - Maintainers SHOULD NOT merge their own pull requests.
 - Maintainers SHOULD aim to make contributing a fun and simple experience.
 - Maintainers SHOULD merge project pull requests in a fast and friendly manner.
-- Maintainers MUST communicate upfront what types of changes in a project pull request are blocked from merging.
 - Maintainers SHOULD NOT suggest non-blocking changes on project pull requests.
 - Maintainers SHOULD close pull requests that are outdated in comparison to the `main` branch.
 - Maintainers SHOULD invite high-quality contributors to become maintainers.
