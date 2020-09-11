@@ -43,6 +43,8 @@ SSB-JS organization require discussion and consent.
 
 - Projects SHOULD be written in JavaScript or TypeScript.
 - Projects SHOULD have internally consistent code style.
+  - Projects SHOULD follow the default [Prettier](https://prettier.io/) rules.
+  - Projects SHOULD follow the [recommended ESLint rules](https://eslint.org/docs/rules/).
 - Projects SHOULD have documentation of all public APIs.
 - Projects SHOULD have automated tests for all target platforms.
 - Projects SHOULD have internally consistent contribution guidelines.
