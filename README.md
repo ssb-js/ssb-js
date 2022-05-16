@@ -1,5 +1,13 @@
 # SSB-JS
 
+:warning: **On May 2022, staltz, arj03 and mixmix (the only active members of ssb-js) 
+decided to disband SSB-JS and move the repos back to SSBC. See a thread on SSB
+about the decision: `%1NtrLWhxeuHr03NRoyriInzLSvPVn7fkiZ6C61PPhVo=.sha256`.**
+
+The following text reflects the old rules for this GitHub org.
+
+------------
+
 ## History
 
 The SSBC is a structureless organization that doesn't adaquately serve the needs
